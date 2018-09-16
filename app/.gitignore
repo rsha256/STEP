@@ -1,0 +1,5 @@
+build/
+*~
+xcuserdata
+*.xccheckout
+.DS_Store
