@@ -10044,24 +10044,24 @@ h1, h2, h3, h4, h5,
 .btn.btn-primary {
   background: #fce7f1;
   border: 2px solid #fce7f1;
-  color: #34A853;
+  color: #007bff;
 }
 
 .btn.btn-primary:hover {
-  border: 2px solid #34A853;
+  border: 2px solid #007bff;
   background: transparent;
-  color: #34A853;
+  color: #007bff;
 }
 
 .btn.btn-primary.btn-outline-primary {
-  border: 2px solid #34A853;
+  border: 2px solid #007bff;
   background: transparent;
-  color: #34A853;
+  color: #007bff;
 }
 
 .btn.btn-primary.btn-outline-primary:hover {
   border: 2px solid transparent;
-  background: #34A853;
+  background: #007bff;
   color: #fff;
 }
 
@@ -10079,7 +10079,7 @@ h1, h2, h3, h4, h5,
 .btn.btn-outline-white:hover, .btn.btn-outline-white:focus, .btn.btn-outline-white:active {
   background: #fff;
   border-color: #fff;
-  color: #34A853;
+  color: #007bff;
 }
 
 .ftco-section-featured {
@@ -10098,7 +10098,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-section-featured .heading-section h2 strong {
   font-weight: 700;
-  color: #34A853;
+  color: #007bff;
   background: #fdf2ea;
 }
 

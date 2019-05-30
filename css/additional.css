@@ -473,11 +473,11 @@ tr:hover {
   padding: 2%;
 }
 
-#faqcontent {
+#eventcontent {
   font-weight: 500;
 }
 
-#faqcontent h3 {
+#eventcontent h3 {
   color: black;
 }
 
@@ -568,4 +568,13 @@ tr:hover {
 
 .yellow {
   color: #FBBC06;
+}
+
+.small-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.spacer {
+  height: 10vh;
 }
