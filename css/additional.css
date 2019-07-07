@@ -563,11 +563,13 @@ tr:hover {
 }
 
 .blue {
-  color: #007bff;
+  /* color: #007bff; */
+  color: #203F7D;
 }
 
 .yellow {
-  color: #FBBC06;
+  /* color: #FBBC06; */
+  color: #f9b300;
 }
 
 .small-logo {
