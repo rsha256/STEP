@@ -10717,7 +10717,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #1b5e20;
+  background: #203F7D;
   padding: 12em 0 8em 0;
 }
 
@@ -10728,22 +10728,22 @@ textarea.form-control {
 
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
-  color: #fff;
+  color: #f9b300;
   margin-bottom: 40px;
   font-size: 18px;
   font-weight: 400;
 }
 
 .ftco-footer .ftco-footer-widget ul li a span {
-  color: #fff;
+  color: #f9b300;
 }
 
 .ftco-footer p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #f9b300;
 }
 
 .ftco-footer a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #f9b300;
 }
 
 .ftco-footer a:hover {
