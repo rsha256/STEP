@@ -1,263 +1,183 @@
-
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>STEP For a Better World | Home</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-
-    <!-- stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-    <link href="css/open-iconic-bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    <link href="css/owl.theme.default.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/ionicons.min.css" rel="stylesheet">
-    <link href="css/bootstrap-datepicker.css" rel="stylesheet">
-    <link href="css/jquery.timepicker.css" rel="stylesheet">
-    <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/additional.css" rel="stylesheet">
-
-    <!-- meta -->
-    <link href="img/favicon.png" rel="apple-touch-icon" sizes="180x180">
-    <link href="img/favicon.png" rel="icon" sizes="16x16" type="image/png">
-    <link color="#5bbad5" href="img/favicon.png" rel="mask-icon">
-    <link href="img/favicon.png" rel="shortcut icon">
-    <meta name="theme-color" content="#5f9ea0">
-    <meta content="#da532c" name="msapplication-TileColor">
-    <meta content="#ffffff" name="theme-color">
-    <meta
-        content="STEP For a Better World aims to make the world a better place, one STEP at a time. Please join us in our mission to help better our community through volunteering!"
-        name="description">
-    <meta content="Rahul Shah" name="author">
-    <meta content="Nimeesh Sharma" name="author">
-    <meta content="https://stepforabetterworld.org" property="og:url" />
-    <meta content="website" property="og:type" />
-    <meta content="STEP for a Better World" property="og:title" />
-    <meta
-        content="STEP For a Better World aims to make the world a better place, one STEP at a time. Please join us in our mission to help better our community through volunteering!"
-        property="og:description">
-    <meta property="og:image" content="/img/favicon.png">
-</head>
-
-<body id="top">
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
-        <div class="container noselect">
-            <div class="navbar-brand anchor-scroll"><span class="black-text"><img class="small-logo"
-                        src="img/circle_logo.gif" alt="">
-                    &nbsp;<span>STEP</span></span>
-            </div>
-            <button aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                data-target="#ftco-nav" data-toggle="collapse" type="button">
-                <span class="oi oi-menu"></span> Menu
-            </button>
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item cta">
-                        <a class="nav-link cta-none anchor-scroll" href="#top">Home</a>
-                    </li>
-                    <li class="nav-item cta scheduleMobile">
-                        <a class="nav-link cta-none anchor-scroll" href="#about-us">Our Mission</a>
-                    </li>
-                    <li class="nav-item cta schedule">
-                        <a class="nav-link cta-none anchor-scroll" href="#about-us">Our Mission</a>
-                    </li>
-                    <li class="nav-item cta">
-                        <a class="nav-link cta-none anchor-scroll" href="#partners">Our Partners</a>
-                    </li>
-                    <li class="nav-item cta">
-                        <a class="nav-link cta-none anchor-scroll" href="#events">Events</a>
-                    </li>
-                    <li class="nav-item cta">
-                        <a class="nav-link cta-none anchor-scroll" href="#members">Our Members</a>
-                    </li>
-                    <li class="nav-item cta">
-                        <a class="nav-link cta-none anchor-scroll" href="#footer">Contact Us</a>
-                    </li>
-                    <li class="nav-item cta sign-up-btn">
-                        <a class="typeform-share nav-link cta-none" data-mode="popup"
-                            href="https://forms.gle/RFcEuXFSa4zKzoZUA" target="_blank">Join
-                            Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+* {
+  box-sizing: border-box;
 }
 
-.dropdown {
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
   position: relative;
-  display: inline-block;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.dropdown-content {
-  display: none;
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
   z-index: 1;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+/* Place the container to the left */
+.left {
+  left: 0;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
 </style>
 </head>
 <body>
 
-<h2>Hoverable Dropdown</h2>
-<p>Move the mouse over the button to open the dropdown menu.</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2017</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2016</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2015</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2012</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2011</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2007</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
   </div>
 </div>
 
 </body>
 </html>
-
-    
-    <section id="home">
-        <div class="hero-wrap js-fullheight">
-            <div class="overlay" style="background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('img/splash.jpg') no-repeat center center fixed;   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;"></div>
-            <div id="particles-js"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-center"
-                    data-scrollax-parent="true">
-                    <div class="col-md-6 ftco-animate text-center" style="margin-top: 5vh;"
-                        data-scrollax=" properties: { translateY: '70%' }">
-                        <!-- <img alt="" id="STEPlogo" src="img/circle_logo.gif" style="width: 10vw;"/> -->
-                        <h1 class="mb-2 " data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                            <span style="font-size:130%;"><strong>
-                                    <span class="yellow">STEP</span>
-                                    <span class="red">For</span>
-                                    <span class="orange">A</span>
-                                    <span class="green">Better</span>
-                                    <span class="blue">World</span>
-                                </strong></span>
-                        </h1>
-                        <h2 class="mb-4 " data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                            <span style="font-weight: 400;">
-                                <span class="yellow">Helping the World One STEP at a time</span>
-                            </span>
-                        </h2><br />
-                        <p class="" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                            <a class="typeform-share btn btn-primary btn-outline-white px-5 py-2-5" data-mode="popup"
-                                href="https://forms.gle/RFcEuXFSa4zKzoZUA" target="_blank">Join Us</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="ftco-section" id="about-us">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-5">
-                <div class="col-md-6 text-center heading-section ftco-animate">
-                    <h2 class="mb-4">Mission</h2>
-                    <p>Our club started with a mission of uniting students, neighbors, family and friends to bring
-                        about social changes. At community level it will be a great place for kids and teenagers to
-                        learn how to contribute more positively to the society and at global level it will help them
-                        to​create sustainable social changes through youth activism by working with organizations
-                        supporting
-                        the underprivileged.
-                    </p>
-                    <h2>Vision</h2>
-                    <p>STEP supports the betterment of our community and the world especially helping the
-                        underprivileged. The club is isn't dedicated to any one cause but, is adaptable to all the
-                        things that our community is passionate about. We are involved in simple fund raising tasks
-                        to collection drives in order to raise awareness. We will keep you posted as we continue to
-                        ​make our mission a reality.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate justify-content-center">
-                    <div style="text-align: center;">
-                        <div class="media block-6 services d-block text-center scalingfix">
-                            <div class="d-flex justify-content-center">
-                                <div class="icon color-3 d-flex justify-content-center mb-3"><span
-                                        class="align-self-center icon-heart"></span>
-                                </div>
-                            </div>
-                            <div class="media-body p-2 mt-3">
-                                <h3 class="heading">Safety</h3>
-                                <p>We ensure that all members are safe and have a good time!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate justify-content-center">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon color-2 d-flex justify-content-center mb-3"><span
-                                    class="align-self-center icon-arrow-circle-o-right"></span>
-                            </div>
-                        </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Training</h3>
-                            <p>We train our members to learn new skills as they experience their community and beyond
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate justify-content-center">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon color-1 d-flex justify-content-center mb-3"><span
-                                    class="align-self-center icon-bar-chart"></span>
-                            </div>
-                        </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Education</h3>
-                            <p>We educate not only our members but everyone in the community</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate justify-content-center">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon color-4 d-flex justify-content-center mb-3"><span
-                                    class="align-self-center icon-users"></span>
-                            </div>
-                        </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Partnership</h3>
-                            <p>We partner with several amazing organizations to help advance our missions!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
