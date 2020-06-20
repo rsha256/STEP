@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="037c2c3a-0c05-4f7c-be2f-7b0eca09d665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/years/2014/pfd14/pfd14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years/2014/pfd14/pfd14_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years/2014/pfd14/pfd14_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2015/2015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2016/2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2017/2017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2018/2018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2019/2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2020/2020.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1558807720722" duration="7254000" />
       <workItem from="1559244880361" duration="6654000" />
       <workItem from="1592616179317" duration="96000" />
-      <workItem from="1592616322535" duration="5257000" />
+      <workItem from="1592616322535" duration="5547000" />
     </task>
     <servers />
   </component>
