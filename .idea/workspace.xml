@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="037c2c3a-0c05-4f7c-be2f-7b0eca09d665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/years/2013/wwphssvf/wwphssvf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years/2013/wwphssvf/wwphssvf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/years/2013/2013.html" beforeDir="false" afterPath="$PROJECT_DIR$/years/2013/2013.html" afterDir="false" />
-    </list>
+    <list default="true" id="037c2c3a-0c05-4f7c-be2f-7b0eca09d665" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1558807720722" duration="7254000" />
       <workItem from="1559244880361" duration="6654000" />
       <workItem from="1592616179317" duration="96000" />
-      <workItem from="1592616322535" duration="4616000" />
+      <workItem from="1592616322535" duration="4923000" />
     </task>
     <servers />
   </component>
@@ -97,10 +93,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="109" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1592616280446" />
-    <state x="372" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592616953968">
+    <state x="372" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592621692831">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="372" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1592616953968" />
+    <state x="372" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1592621692831" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1592616939858">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
