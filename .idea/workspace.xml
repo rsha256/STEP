@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="037c2c3a-0c05-4f7c-be2f-7b0eca09d665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/years/2013/ecdc/ecdc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years/2014/2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2013/ecdc/ecdc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2013/ecdc/ecdc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2013/ecdc/ecdc3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/years/2013/2013.html" beforeDir="false" afterPath="$PROJECT_DIR$/years/2013/2013.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/years/2014/2014.html" beforeDir="false" afterPath="$PROJECT_DIR$/years/2014/2014.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/years/2013/ecdc/ecdc.html" beforeDir="false" afterPath="$PROJECT_DIR$/years/2013/ecdc/ecdc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -81,12 +84,15 @@
       <workItem from="1558807720722" duration="7254000" />
       <workItem from="1559244880361" duration="6654000" />
       <workItem from="1592616179317" duration="96000" />
-      <workItem from="1592616322535" duration="2787000" />
+      <workItem from="1592616322535" duration="3757000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="109" key="#Plugins" timestamp="1592616280446">
