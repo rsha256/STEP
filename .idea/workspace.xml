@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="037c2c3a-0c05-4f7c-be2f-7b0eca09d665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/years/2013/2013.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2013.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2014.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2015.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2016.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2017.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2018.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2019.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-years/2020.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2013/ecdc/ecdc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/years/2014/2014.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/years/2013/2013.html" beforeDir="false" afterPath="$PROJECT_DIR$/years/2013/2013.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/years/2014/2014.html" beforeDir="false" afterPath="$PROJECT_DIR$/years/2014/2014.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +39,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/years/2013" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/years/2014" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/years/2014" />
+      <recent name="$PROJECT_DIR$/years/2013/ecdc" />
       <recent name="$PROJECT_DIR$/years/2013" />
       <recent name="$PROJECT_DIR$/images/favicon" />
     </key>
@@ -86,7 +81,7 @@
       <workItem from="1558807720722" duration="7254000" />
       <workItem from="1559244880361" duration="6654000" />
       <workItem from="1592616179317" duration="96000" />
-      <workItem from="1592616322535" duration="2471000" />
+      <workItem from="1592616322535" duration="2787000" />
     </task>
     <servers />
   </component>
