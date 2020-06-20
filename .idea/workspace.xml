@@ -35,13 +35,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/years/2014" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/years/2013/prs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/years/2013/prs" />
       <recent name="$PROJECT_DIR$/years/2014" />
       <recent name="$PROJECT_DIR$/years/2013/ecdc" />
       <recent name="$PROJECT_DIR$/years/2013" />
@@ -77,7 +78,7 @@
       <workItem from="1558807720722" duration="7254000" />
       <workItem from="1559244880361" duration="6654000" />
       <workItem from="1592616179317" duration="96000" />
-      <workItem from="1592616322535" duration="4029000" />
+      <workItem from="1592616322535" duration="4297000" />
     </task>
     <servers />
   </component>
