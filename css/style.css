@@ -11915,3 +11915,8 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+/* Partner class */
+.partner {
+  font-size: 12px;
+}
