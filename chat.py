@@ -1,6 +1,5 @@
-name = input("Name: ")
-
-while 1:
+while True:
+  name = input("Name: ")
   f = open("demofile.txt", "r")
   print(f.read())
   
