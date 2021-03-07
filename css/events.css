@@ -99,7 +99,7 @@
     position: relative;
     border-radius: 6px;
   }
-  
+
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
     /* Place the timelime to the left */
@@ -151,7 +151,7 @@ a:visited {
 a:hover {
   color: blue;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:active {
   color: blue;
